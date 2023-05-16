@@ -1,8 +1,7 @@
 # UNIX Shell in C++
 
 This project is to further personal understanding as well as fulfill prject requirements for CS 461 Operating Systems.
-
-
+NEWEST UPDATES WILL BE FOUND IN TAGS
 The intended purpose is to implement a program that serves as a shell interface program that performs rudimentary shell actions. The program should accept user commands and then execute each command in a seperate process. To do that, your implementation must utilize the UNIX fork(), exec(), wait(), dip2() and pipe() systems and suppoty input and output redirection and pipes as a form of Inter Process Communication between a pair of commands.
 
 # Shell Program
