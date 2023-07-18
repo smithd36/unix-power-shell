@@ -1,0 +1,90 @@
+.gh-button {
+  transform: scale(3);
+  margin-left: -10%;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  color: #fff;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  h3 {
+    margin-top: -100px;
+    margin-left: -30px;
+    color: #64B1DB;
+  }
+
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.2em;
+    max-height: calc(1.2em * 3);
+    transform: scale(0.91);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(0.8);
+      margin-left: -25px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  // Styles for Small Mobile Devices
+  .gh-button {
+    margin-left: -10%;
+  }
+  .content {
+    margin-top: 37px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  // Styles for Large Mobile, Small Device
+  .gh-button {
+    margin-left: -10%;
+  }
+  .content {
+    margin-top: 37px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  // Styles for Medium Devices
+  .gh-button {
+    margin-left: -10%;
+  }
+  .content {
+    margin-top: 37px;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  /* Styles for large devices */
+}
+
+@media screen and (min-width: 1199px) {
+  // Styles for extra large devices
+}

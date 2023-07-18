@@ -1,0 +1,32 @@
+.oval-bg {
+  border-radius: 45%;
+  width: 125%;
+  height: 125%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technologies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+  grid-gap: 10%;
+  justify-items: center;
+}
+  
+  .technology-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  .technology-name {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+  }

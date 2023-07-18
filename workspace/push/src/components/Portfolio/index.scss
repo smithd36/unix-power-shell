@@ -1,0 +1,59 @@
+.portfolio {
+    display: flex;
+
+    .image-container {
+      position: relative;
+      overflow: hidden;
+    }
+  }
+  
+  .card {
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 5%;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .card {
+      width: 75px;
+      height: 75px;
+      &:hover {
+        transform: scale(0.7);
+        font-size: 8px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 767px) {
+    .card {
+      width: 75px;
+      height: 75px;
+      &:hover {
+        transform: scale(1);
+        font-size: 8px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    .card {
+      width: 90px;
+      height: 90px;
+      
+      &:hover {
+        transform: scale(0.8);
+        font-size: 8px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 991px) and (max-width: 1199px) {
+    /* Styles for large devices */
+  }
