@@ -1,0 +1,7 @@
+com.example.astroreads
+com.example.astroreads.controller
+com.example.astroreads.controller.api
+com.example.astroreads.model
+com.example.astroreads.view.activities
+com.example.astroreads.view.adapters
+com.example.astroreads.view.fragments
